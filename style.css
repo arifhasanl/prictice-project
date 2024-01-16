@@ -13,16 +13,18 @@ body {
 font-family: "Manrope", sans-serif; */
 
 .container {
-  max-width: 1280px;
+  max-width: 1660px;
+  margin: 0 auto;
 }
-.section-title h6 {
-  color: white;
-  font-size: 14px;
+.subheading h2 {
   font-family: "Manrope", sans-serif;
+  font-size: 60px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.4px;
-  word-wrap: break-word;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
 }
 .subheading h2 {
   font-family: "Manrope", sans-serif;
@@ -115,11 +117,13 @@ font-family: "Manrope", sans-serif; */
 /* slider */
 .slider-top-content h2 {
   color: white;
-  font-size: 65px;
+  font-size: 80px;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-  line-height: 94px;
   word-wrap: break-word;
+}
+.slider-top-content {
+  margin-top: 100px;
 }
 .slider-top-content p {
   color: #b4b7be;
@@ -131,12 +135,13 @@ font-family: "Manrope", sans-serif; */
 .slider-top-button button {
   background-color: #141820;
   border: 1px solid#fff;
-  padding: 5px 7px;
+  padding: 10px 20px;
   border-radius: 4px;
+  font-size: 16px;
 }
-.slider-logo.position-absolute {
+.slider-logo {
   top: -62px;
-  right: 100px;
+  right: 200px;
 }
 .slider-btn {
   background-color: #d70b54;
@@ -145,7 +150,7 @@ font-family: "Manrope", sans-serif; */
   list-style: none;
   padding: 10px 0;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -166,32 +171,36 @@ font-family: "Manrope", sans-serif; */
 /* -----------about area---------- */
 .about-area {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
-.about-content {
+.about-container {
+  max-width: 1250px;
+  margin: 0 auto;
 }
 .about-content .bg-image {
   margin-top: -35px;
 }
 .about-image-contentt {
-  top: 35px;
+  top: 40px;
+  left: 0;
 }
 .about-content h2 {
   font-family: "Manrope", sans-serif;
-  font-size: 55px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 65px;
   letter-spacing: -0.02em;
   text-align: left;
 }
 .about-content button {
   background-color: #141820;
   border: 1px solid#fff;
-  padding: 5px 7px;
+  padding: 10px 20px;
   border-radius: 4px;
   margin-top: 10px;
 }
 .about-list {
-  margin-bottom: 50px;
+  margin-bottom: 77px;
 }
 .about-list p {
   color: white;
@@ -211,26 +220,30 @@ font-family: "Manrope", sans-serif; */
 }
 .feature-builders {
   color: white;
-  font-size: 63px;
+  font-size: 79px;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 64px;
   word-wrap: break-word;
   opacity: 0.06;
+  text-align: center;
+  margin-bottom: 41px;
 }
 .about-images {
   position: relative;
+  padding: 4px;
 }
 .about-image-content {
   display: none;
   transition: 0.6s;
   position: absolute;
-  bottom: 27px;
-  top: 315px;
-  left: 50px;
+  bottom: 20px;
+  top: 399px;
+  left: 32px;
   background-color: #fff;
-  padding: 15px 15px;
+  padding: 28px 39px;
+  right: 117px;
 }
 .about-image-content p {
   color: #141820;
@@ -254,11 +267,19 @@ font-family: "Manrope", sans-serif; */
 
 /* experience-area */
 .experience-area {
-  max-width: 1074px;
+  max-width: 1250px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 .progress {
   height: 5px;
+}
+.expeerience-bar {
+  padding-bottom: 50px;
+}
+.experience-range {
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 .experience-prodect::before {
   content: "";
@@ -277,6 +298,10 @@ font-family: "Manrope", sans-serif; */
   line-height: 64px;
   word-wrap: break-word;
 }
+.heading h6 {
+  font-weight: 500px;
+  text-transform: uppercase;
+}
 .experience-prodect p {
   color: #abaeb4;
   font-size: 16px;
@@ -288,11 +313,12 @@ font-family: "Manrope", sans-serif; */
 
 /* team-area */
 .team-container {
-  background-image: linear-gradient(#171b23, #141820);
+  max-width: 1250px;
+  margin: 0 auto;
 }
 .team-area {
-  max-width: 1074px;
-  margin: 0 auto;
+  background-image: linear-gradient(#171b23, #141820);
+  padding: 80px;
 }
 
 .see-all-btn {
@@ -301,17 +327,21 @@ font-family: "Manrope", sans-serif; */
   left: 8px;
   right: 8px;
   background-color: #242934;
+}
+see-all-btn-icon {
   cursor: pointer;
 }
-
 .team-img-text {
   top: 150px;
   left: 20px;
   bottom: 30px;
   background-color: #fff;
-  padding: 10px;
+  padding: 29px;
   opacity: 0;
   transition: 0.6s;
+}
+.see-all-btn-icon {
+  cursor: pointer;
 }
 .team-img-text h6 {
   color: #171b24;

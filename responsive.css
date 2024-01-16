@@ -3,10 +3,16 @@
   .about-container {
     margin: 0 50px;
   }
+  .slider-top-content h2 {
+    font-size: 70px;
+  }
 }
 
 /* Normal desktop(lg) :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .slider-top-content h2 {
+    font-size: 70px;
+  }
   .feature-content {
     margin-right: 0px;
   }
@@ -124,6 +130,9 @@
   .feature-content {
     margin-left: 30px;
   }
+  .about-img {
+    width: 100%;
+  }
   .subheading h2 {
     font-size: 45px;
     line-height: 51px;
@@ -150,6 +159,9 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .heading-bar {
     margin-top: 8px;
+  }
+  .experience-section-title {
+    padding-bottom: 59px;
   }
   .slider-top-button button {
     padding: 2px 5px;
@@ -198,6 +210,9 @@
   .about-image img {
     display: none;
   }
+  .about-img {
+    width: 100%;
+  }
   .feature-content {
     margin-left: 0px;
   }
@@ -229,6 +244,9 @@
   .col-xs-2 {
     width: 16.66%;
   }
+  .experience-section-title {
+    padding-bottom: 59px;
+  }
   .col-xs-3 {
     width: 24.93%;
   }
@@ -251,7 +269,7 @@
     width: 100%;
   }
   .about-content-list {
-    margin-top: 150px;
+    margin-top: 188px;
   }
   .d-xs-none {
     display: none;
@@ -286,10 +304,12 @@
     width: 26%;
   }
   .about-list {
-    margin-left: 53px;
+    margin-bottom: 49px;
+    margin-left: 15px;
   }
   .about-area {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .slider {
     margin: 0px;
@@ -308,10 +328,13 @@
     line-height: 43px;
   }
   .about-image-content {
-    bottom: 27px;
-    top: 93px;
+    bottom: 68px;
+    top: 390px;
     left: 33px;
-    right: 11px;
+    right: 92px;
+  }
+  .about-img {
+    width: 100%;
   }
   .feature-builders {
     font-size: 16px;
@@ -320,13 +343,31 @@
   .experience-prodect p {
     font-size: 11px;
   }
+  .experience-section-title {
+    margin: 0 10px;
+  }
+  .experience-section-bar {
+    margin: 0 10px;
+  }
+  .experience-range {
+    margin: 0 10px;
+  }
+  .team-area {
+    padding: 37px;
+  }
+  .experience-range {
+    padding-bottom: 0px;
+  }
   .experience-prodect h4 {
     font-size: 25px;
     line-height: 25px;
   }
   .team-img-text {
-    top: 73px;
-    right: 21px;
+    top: 250px;
+    right: 83px;
+    left: 80px;
+    bottom: 85px;
+    padding: 26px;
   }
   .team-img-text h6 {
     font-size: 15px;
